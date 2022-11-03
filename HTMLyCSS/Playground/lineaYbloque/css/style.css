@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+.caja1, .caja2, .caja3 {
+    color: black;
+    width: 80%;
+    margin: 0 auto;
+} 
+
+.caja1 { background-color: violet;}
+.caja2 { background-color: turquoise;}
+.caja3 { background-color: tomato;}
+
+p span{
+    background-color: yellow;
+}
+section .articulo2{
+    overflow: hidden;
+}
+section article div{
+    width: 25%;
+    float: left;
+}
+.articulo1{
+   border: 3px solid red;
+   padding: 10px;
+}
+.articulo2 {
+    background-color: rosybrown;
+    padding: 10px;
+}
+.articulo3 {
+    margin: 15px;
+    background-color: royalblue;
+    padding: 10px;
+}
+footer{
+    clear: both;
+}
+
+
+

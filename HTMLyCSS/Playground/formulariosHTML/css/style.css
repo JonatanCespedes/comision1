@@ -1,0 +1,6 @@
+input:hover{
+    background-color: pink;
+}
+input:focus{
+    background-color: red;
+}

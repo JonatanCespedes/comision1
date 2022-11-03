@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="javascripts/validaciones.js"></script>
+  <title>Document</title>
+</head>
+<body>
+
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+  
+  <form id="registro" action="servidor.html" method="GET"> 
+    <div class="form-row">
+
+        <div class="col">
+            <div class="form-group">
+                <input type="text" class="form-control" id="nombre" placeholder="nombre">
+                <span id="errorNombre" class="text-danger"></span>
+
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="form-group">
+                <input type="text" class="form-control" id="apellido" placeholder="apellido">
+                <span id="errorApellido" class="text-danger"></span>
+            </div>
+        </div>
+
+          <div class="col">
+            <div class="form-group">
+                <input type="text" class="form-control" id="dni" placeholder="dni">
+                <span id="errorDni" class="text-danger"></span>
+            </div>
+        </div>
+
+    </div>
+    <div class="form-row">
+
+        <div class="col-4">
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="email">
+                <span id="errorEmail" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="form-group">
+                <input type="password" class="form-control" id="pass" placeholder="contraseña">
+                <span id="errorPass" class="text-danger"></span>
+            </div>
+            <span></span>
+        </div>
+
+        <div class="col-4">
+            <div class="form-group">
+                <input type="password" class="form-control" id="pass2" placeholder="confirmar contraseña">
+                <span id="errorPass2" class="text-danger"></span>
+            </div>
+            <span></span>
+        </div>
+
+   
+    </div>
+    <div class="form-row">
+        <div class="col-4">
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="foto">
+                <label class="custom-file-label" for="foto">Foto de perfil</label>
+                <span id="errorFoto" class="text-danger"></span>
+
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="form-group">
+                <input type="date" class="form-control" id="fecha">
+                <span id="errorFecha" class="text-danger"></span>
+            </div>
+            <span></span>
+        </div>
+
+        <div class="col-4">
+            <div class="form-group">
+                <select class="form-control" id="sexo">
+                    <option value="">Sexo</option>
+                    <option value="m">Masculino</option>
+                    <option value="f">Femenino</option>
+                </select>
+                <span id="errorSexo" class="text-danger"></span>
+            </div>
+        </div>
+      
+        
+    </div>
+
+   <div class="form-row">
+    <div class="col-4">
+        <div class="d-flex justify-content-center">
+            <img src="" alt="" id="vistaPrevia" class="img-thumbnail">
+        </div>
+    </div>
+        <div class="col-8">
+            <div class="form-group">
+                <textarea class="form-control" id="comentario" rows="3" placeholder="Acerca de mí"></textarea>
+                <span id="errorComentario" class="text-danger"></span>
+            </div>
+        </div>
+
+    </div>
+
+   <div class="form-row d-flex justify-content-between">
+    <span id="msgError" class="text-danger"></span>
+        <button type="submit" class="btn btn-primary">Enviar formulario</button>
+   </div>
+ 
+
+    
+</form>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+comandos bash:
+
+ls (listar archivos)
+	-a (mostrar archivos ocultos)
+	-l (lista ordenado y muestra mas datos)
+
+cd 'directorio' (para entrar a una carpeta)
+	.. (ir a carpeta superior)
+
+cat 'archivo' (muestra el contenido del archivo)
+mkdir 'carpeta' (crea un directorio)
+touch 'archivo' (crea un archivo)
+echo "contenido" > archivo.extension (guarda el en contenido en un archivo nuevo o ya creado)
+rm 'archivo' (borra un archivo)
+rm -r 'carpeta' (borra carpeta)
+rm -rf 'carpeta' (borra carpeta con proteccion sin pedir autorizacion ni preguntar)
+pwd (muestra donde estas parado con la terminal)
+mv 'a/c' 'nuevo nombre' (cambia el nombre de un archivo o carpeta)
+mv 'a/c' 'carpeta' (mueve el archivo o carpeta a la carpeta que le pasamos)
+cp 'archivo' 'carpeta' (copia el archivo en la carpeta que le pasemos)
+cp -r 'carpeta' 'carpeta' (copia la carpeta a la carpeta que le pasemos)
+diff 'a/c' 'a/c' (muestra la diferencia en el contenido entre ambos archivos)
+file 'a/c' (muestra el tipo de dato que es)
+grep 'expresion' 'archivo' (muestra la linea en la que se encuentre la expresion dentro del archivo)
+date (muestra la hora y fecha)
+code 'carpeta' (abre vs code en la carpeta que le pasemos, que puede ser '.')
+
+
+
+
+git:
+
+git --version
+git init (inicia repositorio en esa carpeta)
+git config user.name "nombreDeUsuario", git config user.email "nombre@email.com", git config --global user.name "nombreDeUsuario", git config --global user.email "nombre@email.com"
+git config user.name, git config user.email (ver datos configurados)
+git remote add origin 'url' (vincula con repositorio remoto)
+git remote -v (muestra el repositorio remoto al que esta vinculado)
+git status (muestra estado de los archivos)
+git add 'archivo', git add . (agrega archivos al repositorio para hacerle seguimiento)
+git rm --cached 'archivo' (remueve el archivo del seguimiento, pero sigue existiendo en la carpeta)
+git restore --staged 'archivo' (revierte el comando 'git rm --cached')
+git restore 'archivo' (revierte los cambios hechos en un archivo siempre y cuando todavia no haya sido agregado con 'add')
+git commit -m "mensaje" (commitea y agrega un mensaje descriptivo)
+git push origin master (sube los commits a el repositorio remoto)
+git pull origin master (actualiza nuestro repositorio local respecto al repositorio remoto vinculado)
+git clone 'url' (clona repositorio por primera vez)
+git clone 'url' 'nuevo nombre de la carpeta' (clona un repositorio por primera vez en una carpeta con distinto nombre)
+git log (muestra todos los commit y datos de ellos)
+git log --stat (muestra commmits con mas info)
+git log --oneline (muestra commits en una linea cada uno con los codigos acortados)
+git checkout 'codigo de commit' (vuelve al commit del codigo que le pasamos creando una rama temporal)
+git checkout master (vuelve a la rama principal)
+git checkout -b 'nombre nueva rama' (crea una nueva rama con el nombre que le pasemos)
+git branch (ver las ramas que tenemos)
+git branch -d 'nombre de la rama' (borra la rama que le pasemos)
+git merge 'rama que queres fusionar' (fusiona la rama en le que estas actualmente con la que le pases como parametro)
+
+
+
+
+
+
+NPM:
+
+npm init (inicia un proyecto en node)
+npm init -y (lo inicia por defecto sin configurar ninguna propiedad)
+npm istall (se instalan los modulos del package.json)
+npm i		||	||	||	||	||
+npm install 'modulo' (instala el modulo en un proyecto ya inicializado)
+npm i 'modulo'		||	||	||	||	||	||
+npm install 'modulo' --save (descarga un modulo npm para utilizar en el proyecto)
+npm install 'modulo' --save--dev (se instala solo para usar solo en el desarrollo)
+npm install -g 'modulo' -g (descarga modulo de forma global)
+npm list -g --depth=0 (lista todos los modulos instalados globalmente)
+npm uninstall 'modulo' (desinstala un modulo que esta en este proyecto)
+npm uninstall -g 'modulo' (desinstala modulo instalado globalmente)
+
+
+Express:
+
+npm install express-generator -g
+express 'nombreApp' --ejs (genera un proyecto en express con carpetas y archivos ya creados para tener una base, --ejs es el motor de vistas)
+nodemon bin/www (levanta el proyecto creado con express generator en el puerto 3000)

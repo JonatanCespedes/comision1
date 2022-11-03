@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto
+
+}
+header{
+    height: 80px;
+    background-color: aqua;
+    position: center;
+    width: 80%;
+}
+main{
+    
+    width: 70%;
+    overflow: hidden;
+}
+section {
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: blueviolet;
+    margin: 20px;
+}
+section article{
+    float: left;
+    height: 160px;
+    width: 29%;
+    background-color: salmon;
+    margin:2%;
+}
+footer{
+    height: 80px;
+    width: 80%;
+    background-color: seagreen;
+}

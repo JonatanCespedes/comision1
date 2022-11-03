@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="index.html" method="GET">
+        <p><label for="email">EMAIL</label></p>
+        <p><input type="email" id="email" name="email"></p>
+
+        <p><label for="">¿Fuiste al cine éste año?</label></p>
+        <p><input type="radio" name="cine" value="s" checked>Si</p>
+        <p><input type="radio" name="cine" value="n">No</p>
+
+        <p><label for="">Géneros preferidos</label></p>
+        <input type="checkbox" name="genero" value="terror"> Terror <br>
+        <input type="checkbox" name="genero" value="comedia"> Comedia <br>
+        <input type="checkbox" name="genero" value="accion" checked> Acción <br>
+
+        <p><label for="">Seleccione país</label></p>
+        <select name="pais" id="">
+            <option value="AR">Argentina</option>
+            <option value="BR">Brasil</option>
+            <option value="CL">Chile</option>
+        </select>
+
+        <p><label for="">Dejá tu comentario</label></p>
+        <textarea name="Comentario" id="" cols="100" rows="5"></textarea>
+
+        <p><label for="password">CONTRASEÑA</label></p>
+        <p><input type="password" id="password" name="password"></p>
+
+        <p><button type="submit">Enviar el formulario</button></p>
+        <p><button type="reset">Limpiar campos</button></p>
+    </form>    
+</body>
+</html>

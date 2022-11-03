@@ -1,0 +1,16 @@
+{
+  "name": "claseteoricanode",
+  "version": "1.0.0",
+  "description": "mi primer proyecto con npm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonatan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.26.0",
+    "movies-names": "^1.1.1"
+  }
+}

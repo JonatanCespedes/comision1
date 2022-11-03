@@ -1,0 +1,31 @@
+Para saber más
+Para saber más
+Para esta sección tenemos bastante material de referencia para que sigas expandiendo tus conocimientos. Es fácil perderse en el mundo de las bases de datos por lo cual te recomendamos los siguientes pasos:
+
+Solidificá los conceptos: creá muchas bases de datos y probá distintos tipos de consultas.
+Avanza con el diseño de base de datos: investigá qué es la normalización de una base de datos.
+Da el paso avanzado: explorá qué son las vistas, cómo correr scripts dentro de una base de datos y cómo realizar transacciones dentro de la misma como por ejemplo con Transact-SQL
+Aprendé otros tipos de bases de datos: las bases de datos relacionales son las más usadas, sin embargo hay otros tipos de bases de datos que no son relacionales y se las conoce como NOSQL, ahí vas a descubrir cuándo aplicar cada tipo de base de datos, sus beneficios y sus contras.
+1) Solidificá los conceptos
+Para esta sección te proponemos continuar avanzando con lo visto en clase y crear mas bases de datos y realizar muchas consultas sobre las mismas. En este enlace vas a encontrar material extra para realizar consultas más específicas a la base de datos.
+
+2) Avanzá con el diseño de bases de datos
+Seguramente al realizar el diseño de la base de datos creaste tablas en forma eficiente. Una manera de asegurarse la eficiencia en el diseño es lo que se llama “normalización” de base de datos, algo que seguramente te suene familiar solo que no le pusimos nombre en su momento. Te dejamos el siguiente video para que comiences a conocer el tema.
+3) Da el paso avanzado
+Explorá qué son las vistas, cómo correr scripts dentro de una base de datos y cómo realizar transacciones dentro de la misma como por ejemplo con Transact-SQL. Esta sección puede depender mucho del motor de base de datos que estés utilizando, te dejamos este enlace guía de MySQL donde hay tutoriales para estas secciones. Si bien la página esta en inglés puedes utilizar la opción de traducirla a español, procura tener a mano la versión original por si el traductor quiere hacer cosas raras como traducir la palabra “Select”.
+
+4) Aprende otros tipos de bases de datos
+Aparte de las bases de datos relacionales hay otro tipos de bases de datos. Te dejamos el siguiente video del especialista Martin Fowler donde nos introduce los distintos tipos de base de datos. Si bien el video esta en ingles tiene subtitulado a español.
+
+Bibliografía
+Bases de datos es sin duda es un mundo entero, esta es la bibliografía que te recomendamos leer para avanzar en los conocimientos y comprender que otras bases de datos hay y que ventajas y desventajas poseen.
+
+Head First SQL (Inglés): ¿Querés un libro 101 muy didáctico y que explique toooodo desde 0? Te recomendamos este libro que abarca desde que es una base de datos hasta cómo realizar scripts en la base de datos, muy didáctico y muy recomendado.
+Bases de Datos (Editorial Alfaomega autores Enrique Jose Reiniosa y otros): este libro es práctico y apunta directo a las bases de datos relacionales. Vas a poder profundizar en el armado de las mismas y en el poder de correr validaciones y scripts dentro de la misma base de datos.
+Seven Databases in Seven Weeks, Second Edition: este libro bastante practico propone explorar una base de datos por semana con la particularidad de que cada una de estas es de un tipo distinto. ¿Para que usaria una base de datos de grafos? ¿Cómo se diferencia de una base de datos relacionales? ¿Hay mas tipos de base de datos?
+NoSQL Distilled (ingles): este libro es más teórico pero nos introduce a todos los conceptos relacionados a bases de datos que no son relacionales, algo que sin duda nos va a dejar un valor agregado interesante.
+
+https://www.w3schools.com/sql/
+https://www.youtube.com/watch?v=pHkv7LxkLIo&feature=youtu.be
+https://www.mysqltutorial.org/
+https://www.youtube.com/watch?v=qI_g07C_Q5I&feature=youtu.be

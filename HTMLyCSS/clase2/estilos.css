@@ -1,0 +1,12 @@
+h1 {
+    color: aqua;
+}
+h1:hover{
+    color: blue;
+}
+
+input:focus{
+    background-color: cadetblue;
+    border-style: solid;
+    border: 3px;
+}
